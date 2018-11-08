@@ -1,26 +1,21 @@
 ﻿using Entities.Models;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Runtime.Serialization;
-using System.ServiceModel;
-using System.ServiceModel.Web;
-using System.Text;
-using Newtonsoft;
-using Newtonsoft.Json;
 
 namespace Services
 {
-    
+
     [KnownType(typeof(Cliente))]
     public class ServiceCliente : IServiceCliente
     {
         
-        public List<Cliente> GetAllClientes()
+        public string GetAllClientes()
         {
            List<Cliente> clientes = new Business.Clientes.Clientes().GetAllClientes();
-         
-           return clientes;
+            var json = JsonConvert.SerializeObject(clientes);
+           return json;
           
         }
 

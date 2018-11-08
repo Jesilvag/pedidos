@@ -8,6 +8,7 @@ namespace Entities.Models
     using System.Runtime.Serialization;
 
     [DataContract]
+    [Serializable]
     public  class Cliente
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]

@@ -11,6 +11,7 @@ namespace Services
 {
     // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de interfaz "IService1" en el código y en el archivo de configuración a la vez.
     [ServiceContract]
+  
     public interface IServiceCliente
     {
 
@@ -19,9 +20,9 @@ namespace Services
         List<Cliente> GetAllClientes();
 
         [OperationContract]
-        [WebInvoke(Method = "GET", UriTemplate = "cliente/{IdCliente}", ResponseFormat = WebMessageFormat.Json,BodyStyle =WebMessageBodyStyle.Bare)]
+        [WebInvoke(Method = "GET", UriTemplate = "cliente/{IdCliente}", ResponseFormat = WebMessageFormat.Json)]
         
-        Cliente GetClienteById(string IdCliente);
+        string GetClienteById(string IdCliente);
 
 
 

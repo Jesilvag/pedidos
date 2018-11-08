@@ -15,8 +15,8 @@ namespace Data.Clientes
         public Cliente GetClienteByID(int IdCliente)
         {
             Model ModelBD = new Model();
-            var clientes = from c in ModelBD.Clientes select c;
-            return clientes.ToList().FirstOrDefault();
+            var clientes = (from c in ModelBD.Clientes where c.IdCliente==IdCliente  select c).ToList();
+            return clientes.FirstOrDefault();
 
         }
     }

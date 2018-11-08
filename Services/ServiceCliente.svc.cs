@@ -6,23 +6,29 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using Newtonsoft;
+using Newtonsoft.Json;
 
 namespace Services
 {
-    // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "Service1" en el código, en svc y en el archivo de configuración.
-    // NOTE: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione Service1.svc o Service1.svc.cs en el Explorador de soluciones e inicie la depuración.
+    
+    [KnownType(typeof(Cliente))]
     public class ServiceCliente : IServiceCliente
     {
+        
         public List<Cliente> GetAllClientes()
         {
-            List<Cliente> clientes = new Business.Clientes.Clientes().GetAllClientes();
-            return clientes;
+           List<Cliente> clientes = new Business.Clientes.Clientes().GetAllClientes();
+         
+           return clientes;
+          
         }
 
-        public Cliente GetClienteById(string IdCliente)
+        public string GetClienteById(string IdCliente)
         {
             Cliente cliente = new Business.Clientes.Clientes().GetClienteById(Int32.Parse(IdCliente));
-            return cliente;
+            var json = JsonConvert.SerializeObject(cliente);
+            return json;
         }
     }
 }

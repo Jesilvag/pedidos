@@ -1,0 +1,17 @@
+C:\Users\Esteban\Source\Repos\pedidos\Data\bin\Debug\Data.dll.config
+C:\Users\Esteban\Source\Repos\pedidos\Data\bin\Debug\Data.dll
+C:\Users\Esteban\Source\Repos\pedidos\Data\bin\Debug\Data.pdb
+C:\Users\Esteban\Source\Repos\pedidos\Data\bin\Debug\Entities.dll
+C:\Users\Esteban\Source\Repos\pedidos\Data\bin\Debug\Entities.pdb
+C:\Users\Esteban\Source\Repos\pedidos\Data\bin\Debug\Entities.dll.config
+C:\Users\Esteban\Source\Repos\pedidos\Data\bin\Debug\EntityFramework.xml
+C:\Users\Esteban\Source\Repos\pedidos\Data\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Esteban\Source\Repos\pedidos\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Esteban\Source\Repos\pedidos\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Esteban\Source\Repos\pedidos\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Esteban\Source\Repos\pedidos\Data\obj\Debug\Data.dll
+C:\Users\Esteban\Source\Repos\pedidos\Data\obj\Debug\Data.pdb
+C:\Users\Esteban\Source\Repos\pedidos\Data\bin\Debug\EntityFramework.dll
+C:\Users\Esteban\Source\Repos\pedidos\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Esteban\Source\Repos\pedidos\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Esteban\Source\Repos\pedidos\Data\bin\Debug\es\EntityFramework.SqlServer.resources.dll

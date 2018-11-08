@@ -1,0 +1,16 @@
+C:\Users\Esteban\Source\Repos\pedidos\Business\bin\Debug\Business.dll
+C:\Users\Esteban\Source\Repos\pedidos\Business\bin\Debug\Business.pdb
+C:\Users\Esteban\Source\Repos\pedidos\Business\bin\Debug\Data.dll
+C:\Users\Esteban\Source\Repos\pedidos\Business\bin\Debug\Entities.dll
+C:\Users\Esteban\Source\Repos\pedidos\Business\bin\Debug\EntityFramework.dll
+C:\Users\Esteban\Source\Repos\pedidos\Business\bin\Debug\Data.pdb
+C:\Users\Esteban\Source\Repos\pedidos\Business\bin\Debug\Data.dll.config
+C:\Users\Esteban\Source\Repos\pedidos\Business\bin\Debug\Entities.pdb
+C:\Users\Esteban\Source\Repos\pedidos\Business\bin\Debug\Entities.dll.config
+C:\Users\Esteban\Source\Repos\pedidos\Business\bin\Debug\EntityFramework.xml
+C:\Users\Esteban\Source\Repos\pedidos\Business\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Esteban\Source\Repos\pedidos\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\Users\Esteban\Source\Repos\pedidos\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\Esteban\Source\Repos\pedidos\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\Esteban\Source\Repos\pedidos\Business\obj\Debug\Business.dll
+C:\Users\Esteban\Source\Repos\pedidos\Business\obj\Debug\Business.pdb

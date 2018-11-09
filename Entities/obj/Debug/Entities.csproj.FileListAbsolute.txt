@@ -7,7 +7,6 @@ C:\Users\Esteban\Source\Repos\pedidos\Entities\bin\Debug\EntityFramework.xml
 C:\Users\Esteban\Source\Repos\pedidos\Entities\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Esteban\Source\Repos\pedidos\Entities\bin\Debug\es\EntityFramework.resources.dll
 C:\Users\Esteban\Source\Repos\pedidos\Entities\bin\Debug\es\EntityFramework.SqlServer.resources.dll
-C:\Users\Esteban\Source\Repos\pedidos\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
 C:\Users\Esteban\Source\Repos\pedidos\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
 C:\Users\Esteban\Source\Repos\pedidos\Entities\obj\Debug\Entities.csproj.CopyComplete
 C:\Users\Esteban\Source\Repos\pedidos\Entities\obj\Debug\Entities.dll

@@ -6,18 +6,19 @@ namespace Data.Clientes
 {
     public class ClienteData
     {
+        
         public List<Cliente> GetAllClientes()
         {
-            Model ModelBD = new Model();
-            var clientes = from c in ModelBD.Clientes select c;
-            return clientes.ToList();
+            ServiceReferenceClientes.ServiceClienteClient Service = new ServiceReferenceClientes.ServiceClienteClient();
+            List<Cliente> Lista=Service.GetAllClientes().ToList();
+            return Lista;
+
         }
         public Cliente GetClienteByID(int IdCliente)
         {
-            Model ModelBD = new Model();
-            var clientes = (from c in ModelBD.Clientes where c.IdCliente==IdCliente  select c).ToList();
-            return clientes.FirstOrDefault();
-
+            ServiceReferenceClientes.ServiceClienteClient Service = new ServiceReferenceClientes.ServiceClienteClient();
+            Cliente Cliente = Service.GetClienteById(IdCliente);
+            return Cliente;
         }
     }
 }

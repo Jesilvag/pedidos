@@ -16,13 +16,11 @@ namespace Services
     {
 
         [OperationContract]
-        [WebInvoke(Method ="GET",UriTemplate ="clientes",ResponseFormat =WebMessageFormat.Json)]
-        string GetAllClientes();
+       List<Cliente> GetAllClientes();
 
         [OperationContract]
-        [WebInvoke(Method = "GET", UriTemplate = "cliente/{IdCliente}", ResponseFormat = WebMessageFormat.Json)]
-        
-        string GetClienteById(string IdCliente);
+             
+        Cliente GetClienteById(int IdCliente);
 
 
 

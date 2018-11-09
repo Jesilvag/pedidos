@@ -93,10 +93,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Business\Business.csproj">
-      <Project>{45f65ab5-7256-4901-a5e1-99640a7bd227}</Project>
-      <Name>Business</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Entities\Entities.csproj">
       <Project>{61e679b0-fd7b-4ce5-b6a7-7fd595dfec81}</Project>
       <Name>Entities</Name>

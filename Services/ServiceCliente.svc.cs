@@ -1,9 +1,7 @@
 ﻿using Entities.Models;
-using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-
+using System.Linq;
 namespace Services
 {
 
@@ -11,19 +9,19 @@ namespace Services
     public class ServiceCliente : IServiceCliente
     {
         
-        public string GetAllClientes()
+        public List<Cliente> GetAllClientes()
         {
-           List<Cliente> clientes = new Business.Clientes.Clientes().GetAllClientes();
-            var json = JsonConvert.SerializeObject(clientes);
-           return json;
-          
+            Model ModelBD = new Model();
+            var clientes = from c in ModelBD.Clientes select c;
+            return clientes.ToList();
+
         }
 
-        public string GetClienteById(string IdCliente)
+        public Cliente GetClienteById(int IdCliente)
         {
-            Cliente cliente = new Business.Clientes.Clientes().GetClienteById(Int32.Parse(IdCliente));
-            var json = JsonConvert.SerializeObject(cliente);
-            return json;
+            Model ModelBD = new Model();
+            var cliente = from c in ModelBD.Clientes where c.IdCliente==IdCliente select c;
+            return cliente.FirstOrDefault();
         }
     }
 }

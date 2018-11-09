@@ -11,8 +11,7 @@ namespace WebApp.Controllers
     {
         public ActionResult Index()
         {
-           List<Cliente> ListaClientes= new Business.Clientes.Clientes().GetAllClientes();
-
+            List<Cliente> ListaClientes= new Business.Clientes.Clientes().GetAllClientes();
             return View();
         }
 

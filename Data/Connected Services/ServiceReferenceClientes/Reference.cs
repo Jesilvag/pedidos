@@ -12,7 +12,7 @@ namespace Data.ServiceReferenceClientes {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReferenceClientes.IServiceCliente")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName= "Services.IServiceCliente")]
     public interface IServiceCliente {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/GetAllClientes", ReplyAction="http://tempuri.org/IServiceCliente/GetAllClientesResponse")]

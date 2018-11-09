@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2046
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{61E679B0-FD7B-4CE5-B6A7-7FD595DFEC81}"
 EndProject
@@ -15,6 +15,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{47E076DD-E56F-48B8-913E-CB0C1BA2B1E1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{8AF199B8-BAD8-40EA-B9EC-FF5CA728487C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47E076DD-E56F-48B8-913E-CB0C1BA2B1E1} = {47E076DD-E56F-48B8-913E-CB0C1BA2B1E1}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

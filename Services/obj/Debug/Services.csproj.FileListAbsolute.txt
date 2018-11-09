@@ -15,3 +15,16 @@ C:\Users\Esteban\Source\Repos\pedidos\Services\obj\Debug\Services.csproj.CoreCom
 C:\Users\Esteban\Source\Repos\pedidos\Services\obj\Debug\Services.csproj.CopyComplete
 C:\Users\Esteban\Source\Repos\pedidos\Services\obj\Debug\Services.dll
 C:\Users\Esteban\Source\Repos\pedidos\Services\obj\Debug\Services.pdb
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Services\bin\Services.dll.config
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Services\bin\Services.dll
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Services\bin\Services.pdb
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Services\bin\Entities.dll
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Services\bin\EntityFramework.dll
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Services\bin\Entities.pdb
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Services\bin\EntityFramework.xml
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Services\bin\es\EntityFramework.resources.dll
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Services\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Services\obj\Debug\Services.dll
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Services\obj\Debug\Services.pdb

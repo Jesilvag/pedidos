@@ -9,7 +9,7 @@ namespace Data.Clientes
         
         public List<Cliente> GetAllClientes()
         {
-            ServiceReferenceClientes.ServiceClienteClient Service = new ServiceReferenceClientes.ServiceClienteClient();
+            ServiceReferenceClientes.ServiceClienteClient Service = new ServiceReferenceClientes.ServiceClienteClient("Services.ServiceCliente");
             List<Cliente> Lista=Service.GetAllClientes().ToList();
             return Lista;
 

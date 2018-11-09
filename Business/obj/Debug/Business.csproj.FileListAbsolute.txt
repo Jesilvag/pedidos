@@ -14,3 +14,15 @@ C:\Users\Esteban\Source\Repos\pedidos\Business\obj\Debug\Business.csproj.CoreCom
 C:\Users\Esteban\Source\Repos\pedidos\Business\obj\Debug\Business.csproj.CopyComplete
 C:\Users\Esteban\Source\Repos\pedidos\Business\obj\Debug\Business.dll
 C:\Users\Esteban\Source\Repos\pedidos\Business\obj\Debug\Business.pdb
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Business\bin\Debug\Business.dll
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Business\bin\Debug\Business.pdb
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Business\bin\Debug\Data.dll
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Business\bin\Debug\Entities.dll
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Business\bin\Debug\EntityFramework.dll
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Business\bin\Debug\Data.pdb
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Business\bin\Debug\Entities.pdb
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Business\bin\Debug\EntityFramework.xml
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Business\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Business\obj\Debug\Business.dll
+C:\Users\windows-dev\Documents\Visual Studio 2015\Projects\pedidos\Business\obj\Debug\Business.pdb

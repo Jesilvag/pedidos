@@ -51,7 +51,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clientes\ClienteData.cs" />
+    <Compile Include="Connected Services\ServiceReferenceCategoria\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Connected Services\ServiceReferenceClientes\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\ServiceReferencePedidos\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\ServiceReferenceProductos\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -66,6 +81,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Connected Services\ServiceReferenceCategoria\ServiceCategoria.wsdl" />
+    <None Include="Connected Services\ServiceReferenceCategoria\ServiceCategoria.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReferenceCategoria\ServiceCategoria1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReferenceCategoria\ServiceCategoria2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\ServiceReferenceClientes\ServiceCliente.wsdl" />
     <None Include="Connected Services\ServiceReferenceClientes\ServiceCliente.xsd">
       <SubType>Designer</SubType>
@@ -76,14 +101,40 @@
     <None Include="Connected Services\ServiceReferenceClientes\ServiceCliente2.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Connected Services\ServiceReferencePedidos\ServicePedidos.wsdl" />
+    <None Include="Connected Services\ServiceReferencePedidos\ServicePedidos.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReferencePedidos\ServicePedidos1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReferencePedidos\ServicePedidos2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReferenceProductos\ServiceProductos.wsdl" />
+    <None Include="Connected Services\ServiceReferenceProductos\ServiceProductos.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReferenceProductos\ServiceProductos1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReferenceProductos\ServiceProductos2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Entities.Models.Categoria.datasource" />
     <None Include="Properties\DataSources\Entities.Models.Cliente.datasource" />
+    <None Include="Properties\DataSources\Entities.Models.Pedido.datasource" />
+    <None Include="Properties\DataSources\Entities.Models.Producto.datasource" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\ServiceReferenceCategoria\" />
     <WCFMetadataStorage Include="Connected Services\ServiceReferenceClientes\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReferencePedidos\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReferenceProductos\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\ServiceReferenceClientes\ServiceCliente.disco" />
@@ -96,6 +147,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\ServiceReferenceClientes\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferenceCategoria\ServiceCategoria.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferenceCategoria\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferenceCategoria\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferenceCategoria\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferencePedidos\ServicePedidos.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferencePedidos\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferencePedidos\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferencePedidos\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferenceProductos\ServiceProductos.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferenceProductos\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferenceProductos\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferenceProductos\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
